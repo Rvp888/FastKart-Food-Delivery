@@ -1298,8 +1298,8 @@ ul {
 }
 
 .bestSeller-product .bestProduct-details h3:hover {
-  color: rgb(6, 6, 200);
-  text-decoration: underline;
+  color: rgba(6, 6, 200, 0.849);
+  scale: 102%;
   transition: 0.2s;
 }
 
