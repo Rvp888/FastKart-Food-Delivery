@@ -909,9 +909,22 @@ ul {
 
 .product-div {
   border: 1px solid #989797;
+  border-left: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.product-div:nth-child(1),
+.product-div:nth-child(5) {
+  border-left: 1px solid #989797;
+}
+
+.product-div:nth-child(5),
+.product-div:nth-child(6),
+.product-div:nth-child(7),
+.product-div:nth-child(8) {
+  border-top: none;
 }
 
 .product-div img {
