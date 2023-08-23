@@ -1569,6 +1569,16 @@ ul {
   gap: 10px;
 }
 
+.footer-section-2-div1 .address-2 {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer-section-2-div1 .address-2:hover {
+  text-decoration: underline;
+}
+
 .footer-section-2-div2 h3 {
   color: #222222;
   margin-bottom: 15px;
@@ -1614,6 +1624,13 @@ ul {
 
 .contact-details h4 {
   color: #222222;
+}
+
+.contact-details #email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  scale: 102%;
+  transition: 0.2s;
 }
 
 .downloads-div {
