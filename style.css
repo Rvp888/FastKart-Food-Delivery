@@ -967,6 +967,12 @@ ul {
   color: #454444;
   border-radius: 5px;
   padding: 25px 0;
+  cursor: pointer;
+}
+
+.category-div:hover {
+  background-color: #f2f0f0;
+  transition: 0.5s;
 }
 
 .category-div img {
@@ -1121,6 +1127,7 @@ ul {
   grid-column: 1/7;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .juice-banner-2 {
@@ -1128,6 +1135,7 @@ ul {
   grid-column: 7/-1;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .juice-banner-container img {
@@ -1208,6 +1216,7 @@ ul {
 .bestSeller-product {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .bestSeller-product img {
@@ -1230,6 +1239,12 @@ ul {
 .bestSeller-product .bestProduct-details h3 {
   color: #222222;
   font-size: 14px;
+}
+
+.bestSeller-product .bestProduct-details h3:hover {
+  color: rgb(6, 6, 200);
+  text-decoration: underline;
+  transition: 0.2s;
 }
 
 .bestSeller-product .bestProduct-details h4 {
