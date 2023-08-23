@@ -340,6 +340,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .banner-1 img {
@@ -356,6 +357,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .banner-2 img {
@@ -371,6 +373,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .banner-3 img {
@@ -511,6 +514,7 @@ ul {
   align-items: start;
   justify-content: end;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .poster img {
@@ -564,7 +568,7 @@ ul {
   cursor: pointer;
 }
 
-.shopNow-btn:hover {
+.shopNow-div:hover .shopNow-btn {
   color: white;
   transition: 0.2s;
 }
