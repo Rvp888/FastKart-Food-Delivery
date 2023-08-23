@@ -255,6 +255,14 @@ ul {
 .navLinks li {
   cursor: pointer;
   color: #505050;
+  padding: 6px 10px 7px;
+  border-radius: 5px;
+}
+
+.navLinks li:hover {
+  background-color: #f2eeee;
+
+  transition: 0.3s;
 }
 
 .navLinks li i {
