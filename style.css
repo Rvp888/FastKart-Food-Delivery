@@ -1330,6 +1330,7 @@ ul {
   height: 250px;
   width: 100%;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .blog-div p {
@@ -1341,6 +1342,13 @@ ul {
 
 .blog-div h4 {
   color: #222222;
+  cursor: pointer;
+}
+
+.blog-div h4:hover {
+  color: rgb(6, 6, 200);
+  text-decoration: underline;
+  transition: 0.2s;
 }
 /* featured-blog section ends here */
 
@@ -1450,6 +1458,7 @@ ul {
 .footer-section-1-div {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-section-1-div img {
@@ -1458,8 +1467,13 @@ ul {
 
 .footer-section-1-div p {
   font-size: 15px;
-  color: #2d2d2d;
+  color: #4d4d4d;
   margin: 0 30px 0 20px;
+}
+
+.footer-section-1-div p:hover {
+  color: #010101;
+  transition: 0.2s;
 }
 
 .footer-section-1-div:last-child p {
@@ -1504,6 +1518,11 @@ ul {
   font-size: 15px;
   color: #4a5567cf;
   margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer-section-2-div2 li:hover {
+  color: #475264;
 }
 
 .footer-section-2-div3 h3 {
@@ -1550,6 +1569,7 @@ ul {
   height: 35px;
   width: 120px;
   border-radius: 5px;
+  cursor: pointer;
 }
 /* footer section-2 ends here */
 
@@ -1571,6 +1591,7 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 /* footer section-3 ends here */
 
