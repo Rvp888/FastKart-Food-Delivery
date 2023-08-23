@@ -657,6 +657,11 @@ ul {
   cursor: pointer;
 }
 
+.category-section .p1:hover {
+  color: #101010;
+  scale: 102%;
+}
+
 .categories-div {
   display: flex;
   flex-direction: column;
@@ -922,6 +927,12 @@ ul {
   font-size: 14px;
   line-height: 20px;
   color: #454444;
+  cursor: pointer;
+}
+
+.product-details .product-name:hover {
+  color: rgba(5, 5, 212, 0.799);
+  scale: 101%;
 }
 
 .product-details .new-price {
