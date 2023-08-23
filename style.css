@@ -708,6 +708,7 @@ ul {
   position: relative;
   display: flex;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .side-banner-1 img {
@@ -1128,6 +1129,7 @@ ul {
   background-color: #0c9c81;
   border-radius: 10px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .cashback-banner img {
@@ -1327,6 +1329,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .summer-offer-banner .offer-details-div {
@@ -1431,6 +1434,7 @@ ul {
   border-radius: 10px;
   height: 200px;
   background: linear-gradient(to right, #4a5567, #44536a);
+  cursor: pointer;
 }
 
 .newsletter-img-1 {
@@ -1579,6 +1583,7 @@ ul {
 
 .footer-section-2-div2 li:hover {
   color: #475264;
+  scale: 102%;
 }
 
 .footer-section-2-div3 h3 {
