@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastkart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header-1 starts here -->
+    <header class="header-1">
+        <div class="container">
+            <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <span>1418 Riverwood Drive, CA 96052, US</span>
+            </div>
+            <div class="offer">
+                <b>Welcome to Fastkart!</b>
+                <span>Wrap new offers/gift every single day on Weekends.</span>
+                <b>New Coupon Code:...</b>
+            </div>
+            <div class="langAndCurr" style="font-size: 2rem;">
+                <select class="select-1" name="" id="">
+                    <option value="English" style="color:black">English</option>
+                    <option value="Hindi" style="color:black">Hindi</option>
+                    <option value="Kannada" style="color:black">Kannada</option>
+                </select>
+                <span class="select-divider"></span>
+                <select class="select-2" name="" id="">
+                    <option value="USD" style="color:black">USD</option>
+                    <option value="INR" style="color:black">INR</option>
+                    <option value="EUR" style="color:black">EUR</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <!-- Header-1 ends here -->
+
+    <!-- Header-2 starts here -->
+    <header class="header-2">
+        <div class="container">
+            <div class="brand">
+                <p>Fast<span>kart</span>.</p>
+            </div>
+            <div class="locatinAndSearch">
+                <div class="locationDiv">
+                    <i class="bi bi-geo-alt"></i>
+                    <select id="">
+                        <option value="">Your Location</option>
+                    </select>
+                </div>
+                <div class="searchDiv">
+                    <input type="search" id="" placeholder="I'm searching for...">
+                    <button><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+            <div class="otherTabs">
+                <i class="bi bi-telephone-outbound"></i><span class="partition"></span>
+                <i class="bi bi-heart"></i><span class="partition"></span>
+                <i class="bi bi-cart"><span>2</span></i><span class="partition"></span>
+                <i class="bi bi-person"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header-2 ends here -->
+
+    <!-- Navbar starts here -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="allCategories">
+                <i class="bi bi-text-left"></i>
+                <span style="margin-left: 8px;">All Categories</span>
+            </div>
+
+            <ul class="navLinks">
+                <li>Home <i class="fa-solid fa-angle-down"></i></li>
+                <li>Shop <i class="fa-solid fa-angle-down"></i></li>
+                <li>Product <i class="fa-solid fa-angle-down"></i></li>
+                <li>Mega Menu <i class="fa-solid fa-angle-down"></i></li>
+                <li>Blog <i class="fa-solid fa-angle-down"></i></li>
+                <li id="li-pages">Pages <i class="fa-solid fa-angle-down"></i><span id="new-link">New</span></li>
+                <li>Seller <i class="fa-solid fa-angle-down"></i></li>
+            </ul>
+
+            <div class="dealToday">
+                <i class="bi bi-lightning-charge"></i>
+                <span style="margin-left: 8px;">Deal Today</span>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- BannerSection-1 starts here -->
+    <section class="bannerSection-1">
+        <div class="container">
+            <div class="banner-1">
+                <div class="banner-info">
+                    <p>Exclusive offer <span>30% off</span></p>
+                    <h1>STAY HOME & DELIVERED YOUR <b>DAILY NEEDS</b></h1>
+
+                    <p>Vegetables contain many vitamins and minerals that are good for your health.</p>
+                    <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 5px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2022/08/01/09/12/fruits-7357732_640.png" alt="vegetables">
+            </div>
+            <div class="banner-2">
+                <div class="banner-info">
+                    <h2>45% off</h2>
+                    <h3>Nuts & Dry Fruits</h3>
+                    <p>We deliver premium quality nuts and dry fruits</p>
+                    <button class="banner-btn-2">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2016/10/14/13/10/almonds-1740176_640.png" alt="vegetables">
+            </div>
+            <div class="banner-3">
+                <img src="https://images.unsplash.com/photo-1449962887303-b4a91c7c560a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGZydWl0cyUyMGFuZCUyMG51dHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="vegetables">
+                <div class="banner-info">
+                    <h2>Healthy Food</h2>
+                    <h3>Organic Market</h3>
+                    <p>Start your daily shopping with some Organic food</p>
+                    <button class="banner-btn-2">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- BannerSection-1 ends here -->
+
+    <!-- BannerSection-2 starts here -->
+    <section class="bannerSection-2">
+        <div class="container">
+            <div class="poster poster-1">
+                <div class="poster-info">
+                    <p class="p1">5% Off</p>
+                    <p class="p2">Hot Deals on New Items</p>
+                    <p class="p3">Daily Essentials Eggs & Dairy</p>
+                </div>
+                <div class="shopNow-div colr-green">
+                    <button class="shopNow-btn">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2013/07/12/18/39/eggs-153652_640.png" alt="eggs">
+            </div>
+            <div class="poster poster-2">
+                <div class="poster-info">
+                    <p class="p1">5% Off</p>
+                    <p class="p2">Buy More & Save More</p>
+                    <p class="p3">Fresh Vegetables</p>
+                </div>
+                <div class="shopNow-div colr-red">
+                    <button class="shopNow-btn">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2020/03/19/04/33/vegetables-4946258_640.png" alt="vegetables">
+            </div>
+            <div class="poster poster-3">
+                <div class="poster-info">
+                    <p class="p1">5% Off</p>
+                    <p class="p2">Organic Meat Prepared</p>
+                    <p class="p3">Delivered to Your Home</p>
+                </div>
+                <div class="shopNow-div colr-orange">
+                    <button class="shopNow-btn">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2022/01/19/17/43/meat-6950593_640.png" alt="meat">
+            </div>
+            <div class="poster poster-4">
+                <div class="poster-info">
+                    <p class="p1">5% Off</p>
+                    <p class="p2">Buy More & Save More</p>
+                    <p class="p3">Nuts & Snacks</p>
+                </div>
+                <div class="shopNow-div colr-blue">
+                    <button class="shopNow-btn">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 2px;"></i></button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2016/10/14/12/56/almond-1740161_640.png" alt="nuts">
+            </div>
+        </div>
+    </section>
+    <!-- BannerSection-2 ends here -->
+
+    <!-- Main Section starts here -->
+    <section class="main-section">
+        <div class="container">
+            <!-- side-sections starts here -->
+            <aside class="side-sections">
+                <!-- category-section starts here -->
+                <div class="category-section">
+                    <h3 class="category-title">Category</h3>
+                    <div class="categories-div">
+                        <div class="single-category">
+                            <img src="/images/vegetables.png" alt="">
+                            <p>Vegetables & Fruit</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/beverages.png" alt="">
+                            <p>Beverages</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/meats.png" alt="">
+                            <p>Meats & Seafood</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/breakfast.png" alt="">
+                            <p>Breakfast & Dairy</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/frozen foods.png" alt="">
+                            <p>Frozen Foods</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/snacks.png" alt="">
+                            <p>Biscuits & Snacks</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/grocery.png" alt="">
+                            <p>Grocery & Staples</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/wines.png" alt="">
+                            <p>Wines & Alcohol Drinks</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/milk & diary.png" alt="">
+                            <p>Milk & Dairies</p>
+                        </div>
+                        <div class="single-category">
+                            <img src="/images/pet foods.png" alt="">
+                            <p>Pet Foods</p>
+                        </div>
+                    </div>
+                    <p class="p1">Value of the Day</p>
+                    <p class="p1">Top 50 Offers</p>
+                    <p class="p1">New Arrivals</p>
+                </div>
+                <!-- category-section ends here -->
+
+                <!-- side-banner-1 starts here -->
+                <div class="side-banner-1">
+                    <div class="details">
+                        <h4>Seafood</h4>
+                        <h3>FRESHES</h3>
+                        <h2>PRODUCTS</h2>
+                        <p>every hour</p>
+                        <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                style="margin-left: 5px;"></i></button>
+                    </div>
+                    <img src="/images/fish.webp" alt="sea-food">
+                </div>
+                <!-- side-banner-1 ends here -->
+
+                <!-- side-banner-2 starts here -->
+                <div class="side-banner-2">
+                    <div class="details">
+                        <h4>Organic</h4>
+                        <h3>FRESH</h3>
+                        <h2>VEGETABLES</h2>
+                        <p>Super Offer to 50% Off</p>
+                        <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                style="margin-left: 5px;"></i></button>
+                    </div>
+                    <img src="/images/vegetables-4.webp" alt="sea-food">
+                </div>
+                <!-- side-banner-2 ends here -->
+
+                <!-- trending-products-section starts here -->
+                <div class="trending-products">
+                    <h3 class="category-title" style="margin: 20px 0;">Trending Products</h3>
+                    <div class="bestSellers-column" style="border: none; padding: 0 10px;">
+                        <div class="bestSeller-product">
+                            <img src="/images/meatigo.webp" alt="">
+                            <div class="bestProduct-details">
+                                <h3>Meatigo Premium</h3>
+                                <h4>450 G</h4>
+                                <p>$ 70.00</p>
+                            </div>
+                        </div>
+                        <div class="bestSeller-product">
+                            <img src="/images/dates.webp" alt="">
+                            <div class="bestProduct-details">
+                                <h3>Dates Premium</h3>
+                                <h4>250 G</h4>
+                                <p>$ 40.00</p>
+                            </div>
+                        </div>
+                        <div class="bestSeller-product">
+                            <img src="/images/walnuts.jpg" alt="">
+                            <div class="bestProduct-details">
+                                <h3>Good Life Walnuts</h3>
+                                <h4>200 G</h4>
+                                <p>$ 52.00</p>
+                            </div>
+                        </div>
+                        <div class="bestSeller-product">
+                            <img src="/images/apple.webp" alt="">
+                            <div class="bestProduct-details">
+                                <h3>Apple Premium</h3>
+                                <h4>1 KG</h4>
+                                <p>$ 80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- trending-products-section ends here -->
+
+                <!-- customer-section starts here -->
+                <div class="customer-section">
+                    <h3 class="category-title">Customer Comment</h3>
+                    <h4 class="subtitle">We care about our customer experience</h4>
+                    <p class="description">Lorem ipsum dolor sit amet adipisicing elit. Beatae soluta,
+                        mollitia dignissimos debitis veritatis distinctio necessitatibus laboriosam, suscipit, iste
+                        voluptate a. Esse facere unde ipsa delectus voluptatum optio, soluta facilis, reiciendis
+                        expedita minima explicabo corrupti.</p>
+                    <div class="person-info">
+                        <div>
+                            <img src="/images/person.jpg" alt="">
+                        </div>
+                        <div>
+                            <h4>John Mcdonnale</h4>
+                            <p>Sales Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- customer-section ends here -->
+            </aside>
+            <!-- side-sections ends here -->
+
+            <!-- middle-sections starts here -->
+            <main class="middle-sections">
+                <!-- top-save-today section starts here -->
+                <div class="topSaveToday-section">
+                    <h2 class="topSaveToday-title">Top Save Today</h2>
+                    <p class="topSaveToday-subtitle">Don't miss this opportunity at a special discount just for this
+                        week.</p>
+                    <div class="topSaveToday-timer">
+                        <i class="bi bi-clock"></i>
+                        <p>Expires in- 14 : 23 : 59 : 52</p>
+                    </div>
+                    <div class="products-container">
+                        <div class="product-div" style="border-top-left-radius: 10px;">
+                            <img src="/images/crunchy choco chip.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Fantacy Crunchy Choco Chip Cookies</h4>
+                                <p><b class="new-price">$26.69</b><del class="old-price">$28.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/peanut butter bite.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Peanut Butter Bite Premium Butter Cookies 600g</h4>
+                                <p><b class="new-price">$38.21</b><del class="old-price">$43.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/yamitos chips.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Yumitos Chilli Sprinkled Potato Chips 100g</h4>
+                                <p><b class="new-price">$45.55</b><del class="old-price">$50.25</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div" style="border-top-right-radius: 10px;">
+                            <img src="/images/toned milk.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Healthy & Tasty Long Life Toned Milk 1L</h4>
+                                <p><b class="new-price">$18.69</b><del class="old-price">$20.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div" style="border-bottom-left-radius: 10px;">
+                            <img src="/images/cold brew coffee.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Cold Brew Coffee Instant Coffee 50g</h4>
+                                <p><b class="new-price">$10.50</b><del class="old-price">$12.45</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/snackAmour.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">SnackAmour Combo Pack of Jowar Stick and Jowar Chips</h4>
+                                <p><b class="new-price">$28.20</b><del class="old-price">$34.23</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/desi tour daal.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Neu Farm Unpolished Desi Toor Dal 1 kg</h4>
+                                <p><b class="new-price">$13.25</b><del class="old-price">$15.89</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div" style="border-bottom-right-radius: 10px;">
+                            <img src="/images/dog treats.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Dog Treats Natural Yak Milk Bars For Small Dogs 100g</h4>
+                                <p><b class="new-price">$39.69</b><del class="old-price">$48.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- top-save-today section ends here -->
+
+                <!-- browse-by-categories section starts here -->
+                <div class="browseByCategories-section">
+                    <h2 class="browseByCategories-title">Browse By Categories</h2>
+                    <p class="browseByCategories-subtitle">Top Categories Of The Week</p>
+                    <div class="categories-container">
+                        <div class="category-div">
+                            <img src="/images/breakfast.png" alt="">
+                            <p>Breakfast</p>
+                        </div>
+                        <div class="category-div">
+                            <img src="/images/frozen foods.png" alt="">
+                            <p>Frozen Foods</p>
+                        </div>
+                        <div class="category-div">
+                            <img src="/images/milk & diary.png" alt="">
+                            <p>Milk & Dairies</p>
+                        </div>
+                        <div class="category-div">
+                            <img src="/images/pet foods.png" alt="">
+                            <p>Pet Food</p>
+                        </div>
+                        <div class="category-div">
+                            <img src="/images/vegetables.png" alt="">
+                            <p>Vegetables & Fruits</p>
+                        </div>
+                    </div>
+                    <div class="slider-points">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <!-- browse-by-categories section ends here -->
+
+                <!-- offer-banners section starts here -->
+                <div class="offer-banners-container">
+                    <div class="offer-banner-div">
+                        <div class="offer-details">
+                            <p>50% Offer</p>
+                            <h2>Fresh Meat</h2>
+                            <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                    style="margin-left: 5px;"></i></button>
+                        </div>
+                        <img src="/images/fresh meat.png" alt="fresh meat">
+                    </div>
+                    <div class="offer-banner-div">
+                        <div class="offer-details">
+                            <p>50% Offer</p>
+                            <h2>Tasty Mushrooms</h2>
+                            <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                    style="margin-left: 5px;"></i></button>
+                        </div>
+                        <img src="/images/tasty mashrooms.png" alt="fresh meat">
+                    </div>
+                </div>
+                <!-- offer-banners section ends here -->
+
+                <!-- food-cupboard section starts here -->
+                <div class="foodCupboard-section">
+                    <h2 class="foodCupboard-title">Food Cupboard</h2>
+                    <p class="foodCupboard-subtitle">A virtual assistant collects the products from your list.</p>
+                    <div class="products-container">
+                        <div class="product-div" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+                            <img src="/images/peanut butter bite.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Butter Cookies</h4>
+                                <p><b class="new-price">$26.69</b><del class="old-price">$28.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/desi tour daal.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Tasty Snacks</h4>
+                                <p><b class="new-price">$38.21</b><del class="old-price">$43.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div">
+                            <img src="/images/yamitos chips.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Tomato Chips</h4>
+                                <p><b class="new-price">$45.55</b><del class="old-price">$50.25</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                        <div class="product-div"
+                            style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                            <img src="/images/cold brew coffee.png" alt="choco chip">
+                            <div class="product-details">
+                                <h4 class="product-name">Choco Coffee</h4>
+                                <p><b class="new-price">$18.69</b><del class="old-price">$20.56</del></p>
+                                <span class="stars">⭐⭐⭐⭐⭐</span> <span class="instock">In Stock</span>
+                            </div>
+                            <div class="add-btn">
+                                <p class="addText">Add</p>
+                                <p class="addIcon">+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-cupboard section ends here -->
+
+                <!-- offer-banners section-2 starts here -->
+                <div class="cashback-banner">
+                    <div class="cashback-details">
+                        <h2>Get $3 Cashback! Min Order of $30</h2>
+                        <p>Use Code: GROCERY1920</p>
+                    </div>
+
+                    <img src="/images/cashback-img-3.webp" alt="">
+                    <img src="/images/cashback-img-2.png" alt="">
+                    <img src="/images/cashback-img-1.webp" alt="">
+                    <img src="/images/cashback-img-4.webp" alt="">
+                </div>
+
+                <div class="juice-banner-container">
+                    <div class="juice-banner-1">
+                        <div class="banner-details-1">
+                            <h2>Get Ready To</h2>
+                            <h3>TAKE ON THE DAY!</h3>
+                            <p>Start your day with fresh and healthy juice.</p>
+                            <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                    style="margin-left: 5px;"></i></button>
+                        </div>
+                        <img src="/images/juice img.webp" alt="">
+                    </div>
+                    <div class="juice-banner-2">
+                        <div class="banner-details-2">
+                            <h2>20% Off</h2>
+                            <h3>SUMMRY</h3>
+                            <p>Product</p>
+                        </div>
+                        <img src="/images/summry img.jpg" alt="">
+                    </div>
+                </div>
+                <!-- offer-banners section-2 ends here -->
+
+                <!-- our-best-seller section starts here -->
+                <div class="ourBestSeller-section">
+                    <h2 class="ourBestSeller-title">Our Best Seller</h2>
+                    <p class="ourBestSeller-subtitle">A virtual assistant collects the products from your list.</p>
+                    <div class="bestSellers-container">
+                        <div class="bestSellers-column">
+                            <div class="bestSeller-product">
+                                <img src="/images/sliced bread.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Tuffets Whole Wheet</h3>
+                                    <h4>500 G</h4>
+                                    <p>$ 10.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/potato.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Potato</h3>
+                                    <h4>1 KG</h4>
+                                    <p>$ 12.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/green chilly.png" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Green Chilly</h3>
+                                    <h4>200 G</h4>
+                                    <p>$ 10.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/burger bun.png" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Muffets Burger Bun</h3>
+                                    <h4>100 G</h4>
+                                    <p>$ 5.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestSellers-column">
+                            <div class="bestSeller-product">
+                                <img src="/images/tuffets.png" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Tuffets Brittania</h3>
+                                    <h4>500 G</h4>
+                                    <p>$ 15.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/milk.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Toned Milk</h3>
+                                    <h4>1 L</h4>
+                                    <p>$ 10.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/tomato.png" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Organic Tomato</h3>
+                                    <h4>1 KG</h4>
+                                    <p>$ 20.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/organic jam.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Organic Jam</h3>
+                                    <h4>150 G</h4>
+                                    <p>$ 17.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestSellers-column">
+                            <div class="bestSeller-product">
+                                <img src="/images/refined-oil.jpg" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Good Life Refined</h3>
+                                    <h4>1 L</h4>
+                                    <p>$ 25.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/good life raw grains.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Good Life Raw Grains</h3>
+                                    <h4>500 G</h4>
+                                    <p>$ 18.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/tuff best farm.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>TuffBest Farms</h3>
+                                    <h4>1 KG</h4>
+                                    <p>$ 15.00</p>
+                                </div>
+                            </div>
+                            <div class="bestSeller-product">
+                                <img src="/images/frooti.webp" alt="">
+                                <div class="bestProduct-details">
+                                    <h3>Frooti Mixed Juice</h3>
+                                    <h4>160 ML</h4>
+                                    <p>$ 10.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- our-best-seller section ends here -->
+
+                <!-- summer-offer-banner starts here -->
+                <div class="summer-offer-banner">
+                    <img class="img-1" src="/images/vegetables-8.webp" alt="">
+                    <img class="img-2" src="/images/vegetables-5.webp" alt="">
+                    <div class="offer-details-div">
+                        <h4>SUMMER</h4>
+                        <h1>VEGETABLES</h1>
+                        <p>Save upto 5% Off</p>
+                        <button class="banner-btn-1">Shop Now <i class="fa fa-long-arrow-right" aria-hidden="true"
+                                style="margin-left: 5px;"></i></button>
+                    </div>
+                </div>
+                <!-- summer-offer-banner ends here -->
+
+                <!-- featured-blog section starts here -->
+                <div class="featuredBlog-section">
+                    <h2 class="featuredBlog-title">Featured Blog</h2>
+                    <p class="featuredBlog-subtitle">A virtual assistant collects the products from your list</p>
+                    <div class="blog-container">
+                        <div class="blog-div">
+                            <img src="/images/featuredblog-1.png" alt="">
+                            <p>20 March, 2022</p>
+                            <h4>Fresh Vegetable Online</h4>
+                        </div>
+                        <div class="blog-div">
+                            <img src="/images/featuredblog-2.png" alt="">
+                            <p>10 April, 2022</p>
+                            <h4>Fresh Combo Fruit</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- featured-blog section ends here -->
+
+            </main>
+            <!-- middle-sections ends here -->
+        </div>
+    </section>
+
+    <!-- newsletter section starts here -->
+    <section class="newsLetter-section">
+        <div class="container">
+            <div class="newsletter-div">
+                <h2>Join Our Newsletter And Get...</h2>
+                <p>$20 discount for your first order</p>
+                <div class="subscription-div">
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email">
+                    <button class="banner-btn-1">Subscribe <i class="fa fa-long-arrow-right" aria-hidden="true"
+                            style="margin-left: 5px;"></i></button>
+                </div>
+            </div>
+            <img class="newsletter-img-2" src="/images/newsletter-img-2.png" alt="newsletter-img-2">
+            <img class="newsletter-img-1" src="/images/newsletter-img-1.png" alt="newsletter-img-1">
+        </div>
+    </section>
+    <!-- newsletter section ends here -->
+
+    <!-- footer section starts here -->
+    <div class="footer">
+        <div class="container">
+            <!-- footer section-1 starts here -->
+            <div class="footer-section-1">
+                <div class="footer-section-1-container">
+                    <div class="footer-section-1-div">
+                        <img src="/images/fresh products.png" alt="fresh products">
+                        <p>Every Fresh Products</p>
+                        <div class="footer-partion"></div>
+                    </div>
+                    <div class="footer-section-1-div">
+                        <img src="/images/free delivery.png" alt="free delivery">
+                        <p>Free Delivery For Order Over $50</p>
+                        <div class="footer-partion"></div>
+                    </div>
+                    <div class="footer-section-1-div">
+                        <img src="/images/mega discounts.png" alt="mega discounts">
+                        <p>Daily Mega Discounts</p>
+                        <div class="footer-partion"></div>
+                    </div>
+                    <div class="footer-section-1-div">
+                        <img src="/images/best price tag.png" alt="best price tag">
+                        <p>Best Price On The Market</p>
+                    </div>
+                </div>
+            </div>
+            <!-- footer section-1 ends here -->
+
+            <!-- footer section-2 starts here -->
+            <div class="footer-section-2">
+                <div class="footer-section-2-container">
+                    <div class="footer-section-2-div1">
+                        <div class="brand">
+                            <p>Fast<span>kart</span>.</p>
+                        </div>
+                        <p class="comp-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est impedit
+                            atque qui mollitia
+                            fugiat? Quis autem quasi minus aliquid est.</p>
+                        <div class="address-1">
+                            <i class="bi bi-house-door"></i>
+                            <p>1418 Riverwood Drive, CA 96052, US</p>
+                        </div>
+                        <div class="address-1">
+                            <i class="bi bi-envelope"></i>
+                            <p>support@fastcart.com</p>
+                        </div>
+                    </div>
+                    <div class="footer-section-2-div2">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li>Vegetables & Fruit</li>
+                            <li>Beverages</li>
+                            <li>Meats & Seafood</li>
+                            <li>Frozen Foods</li>
+                            <li>Biscuits & Snacks</li>
+                            <li>Grocery & Staples</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section-2-div2">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section-2-div2">
+                        <h3>Help Center</h3>
+                        <ul>
+                            <li>Your Order</li>
+                            <li>Your Account</li>
+                            <li>Track Order</li>
+                            <li>Your Wishlist</li>
+                            <li>Search</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section-2-div3">
+                        <h3>Contact Us</h3>
+                        <div class="contact-details-div">
+                            <div>
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>Hotline 24/7 :</p>
+                                <h4>+91 888 104 2340</h4>
+                            </div>
+                        </div>
+                        <div class="contact-details-div">
+                            <div>
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>Email Address :</p>
+                                <h4>fastkart@hotmail.com</h4>
+                            </div>
+                        </div>
+                        <div class="downloads-div">
+                            <p>Download App :</p>
+                            <img src="/images/google-play.png" alt="google-play">
+                            <img src="/images/app-store.png" alt="app-store">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer section-2 ends here -->
+
+            <!-- footer section-3 starts here -->
+            <div class="footer-section-3">
+                <p>©2022 Fastkart All rigths reserved</p>
+                <img src="/images/paycards-img.png" alt="paycards-img">
+            </div>
+            <!-- footer section-3 ends here -->
+
+        </div>
+    </div>
+    <!-- footer section ends here -->
+
+</body>
+
+</html>
