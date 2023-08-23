@@ -682,13 +682,14 @@ ul {
   cursor: pointer;
 }
 
-.single-category p:hover {
+.single-category:hover p {
   color: #101010;
+  scale: 102%;
 }
 
 .single-category img {
-  height: 25px;
-  margin-right: 10px;
+  height: 27px;
+  margin-right: 15px;
 }
 
 /* category-section ends here */
