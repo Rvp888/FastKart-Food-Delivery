@@ -138,6 +138,7 @@ ul {
   border-bottom-left-radius: 5px;
   padding: 0.7rem 1rem;
   font-size: 1rem;
+  outline: none;
 }
 
 .searchDiv input::placeholder {
@@ -659,6 +660,10 @@ ul {
   cursor: pointer;
 }
 
+.single-category p:hover {
+  color: #101010;
+}
+
 .single-category img {
   height: 25px;
   margin-right: 10px;
@@ -736,19 +741,23 @@ ul {
   bottom: 50px;
 }
 
+.side-banner-2 .details {
+  margin-top: 100px;
+}
+
 .side-banner-2 .details h4 {
   font-size: 19px;
   font-weight: normal;
 }
 
 .side-banner-2 .details h3 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 0 2px 0;
 }
 
 .side-banner-2 .details h2 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .side-banner-2 .details p {
